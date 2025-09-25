@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CellStart - ChronoNAD+</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    /* Hero Section */
+    header.hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: linear-gradient(135deg,#1e90ff,#00bfff);
+        color: white;
+        height: 100vh;
+        padding: 20px;
+    }
+    header.hero h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    header.hero p {
+        font-size: 1.3em;
+        margin-bottom: 30px;
+    }
+    header.hero button {
+        background-color: white;
+        color: #1e90ff;
+        border: none;
+        padding: 15px 35px;
+        font-size: 1em;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    header.hero button:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Features Section */
+    section.features {
+        max-width: 1000px;
+        margin: auto;
+        padding: 60px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .feature-card {
+        flex: 1 1 300px;
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+        text-align: center;
+    }
+    .feature-card:hover { transform: translateY(-5px); }
+    .feature-card img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+    .feature-card h3 { color: #1e90ff; margin-bottom: 10px; }
+
+    /* Benefits Section */
+    section.benefits {
+        background-color: #f0f8ff;
+        padding: 60px 20px;
+        text-align: center;
+    }
+    section.benefits h2 {
+        margin-bottom: 40px;
+        color: #1e90ff;
+        font-size: 2em;
+    }
+    .benefit-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        margin: 0 auto 30px;
+    }
+    .benefit-item img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    /* Call-to-action Section */
+    section.cta {
+        text-align: center;
+        background-color: #ff6347;
+        color: white;
+        padding: 60px 20px;
+    }
+    section.cta button {
+        background-color: white;
+        color: #ff6347;
+        border: none;
+        padding: 15px 40px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    section.cta button:hover { background-color: #ffe5e0; }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    @media(max-width:768px){
+        section.features, section.benefits { flex-direction: column; align-items: center; }
+    }
+</style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<header class="hero">
+    <img src="Slide 4 Logo 2.png" height="100px">
+    <h1>CellStart presents ChronoNAD+</h1>
+    <p>Unlock the power of cellular energy with our cutting-edge supplement</p>
+    <img src="Slide 4 Product.png" height="200px" style="margin:20px 0;">
+    <button>Shop Now</button>
+</header>
+
+<!-- Features Section -->
+<section class="features">
+    <div class="feature-card">
+        <img src="Slide 6 Infographic 2.png" alt="Energy Boost">
+        <h3>Energy Boost</h3>
+        <p>Enhances cellular energy production for better vitality and endurance.</p>
+    </div>
+    <div class="feature-card">
+        <img src="Slide 7 Infographic 1.png" alt="Supports Longevity">
+        <h3>Supports Longevity</h3>
+        <p>Helps maintain healthy cellular function to support a longer, healthier life.</p>
+    </div>
+    <div class="feature-card">
+        <img src="Slide 8 Infographic 1.gif" alt="Improved Recovery">
+        <h3>Improved Recovery</h3>
+        <p>Supports faster recovery after workouts or fatigue by optimizing cell metabolism.</p>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits">
+    <h2>Why ChronoNAD+?</h2>
+    <div class="benefit-item">
+        <img src="Slide 9 Infographic 2.png" alt="Clinically Tested">
+        <p>Clinically tested formula for peak performance</p>
+    </div>
+    <div class="benefit-item">
+        <img src="Slide 10 Infographic 1.png" alt="Safe for Daily Use">
+        <p>Non-GMO and safe for daily use</p>
+    </div>
+    <div class="benefit-item">
+        <img src="Slide 11 Infographic 1.png" alt="Boost Cellular Repair">
+        <p>Boosts natural cellular repair mechanisms</p>
+    </div>
+</section>
+
+<!-- Call-to-Action Section -->
+<section class="cta">
+    <h2>Ready to feel the difference?</h2>
+    <button>Buy ChronoNAD+ Now</button>
+</section>
+
+<footer>
+    &copy; 2025 CellStart. All rights reserved.
+</footer>
+
+</body>
+</html>
